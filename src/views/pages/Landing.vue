@@ -4,6 +4,7 @@ import AboutMe from '@/components/landing/AboutMe.vue';
 import Exeperiencies from '@/components/landing/Exeperiencies.vue';
 import FirstProject from '@/components/landing/FirstProject.vue';
 import FirstSection from '@/components/landing/FirstSection.vue';
+import More from '@/components/landing/More.vue';
 import SecondProject from '@/components/landing/SecondProject.vue';
 import Skills from '@/components/landing/Skills.vue';
 import ThirdPtoject from '@/components/landing/ThirdPtoject.vue';
@@ -26,7 +27,9 @@ function smoothScroll(id) {
             <div class="navbar py-6 px-6 mx-0 hidden lg:flex items-center justify-between lg:fixed rounded-lg w-full fixed top-0 z-50 sm:hidden">
                 <div class="items-center justify-between flex w-full z-20 rounded-border">
                     <div>
-                        <a @click="smoothScroll('first')" class="text-3xl text-muted-color pl-20" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-2000' }"> João Pedro</a>
+                        <a @click="smoothScroll('first')" class="lg:text-3xl text-1xl text-muted-color pl-20" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-3000' }">
+                            <p v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }">João Pedro</p>
+                        </a>
                     </div>
                     <div class="pr-20">
                         <ul class="list-none p-0 m-0 flex justify-around select-none flex-row cursor-pointer gap-14 w-full">
@@ -62,6 +65,9 @@ function smoothScroll(id) {
 
             <div id="t" class="mt-40">
                 <ThirdPtoject />
+            </div>
+            <div id="more" class="mt-40">
+                <More />
             </div>
             <div id="aboutme" class="mt-40">
                 <AboutMe />

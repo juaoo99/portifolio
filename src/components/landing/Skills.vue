@@ -1,7 +1,7 @@
 <template>
     <div class="lg:px-20 px-10 lg:flex w-full lg:items-center lg:justify-around gap-5">
         <div class="items-center lg:w-1/3 justify-center lg:pr-10" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
-            <span class="text-7xl font-bold">my capabilities</span>
+            <span class="lg:text-7xl text-6xl font-bold mb-8">my capabilities</span>
         </div>
         <div class="items-center lg:w-1/2">
             <p class="font-light text-lg text-pretty mt-5 text-justify" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-b-20 animate-duration-1000' }">

@@ -45,9 +45,9 @@ const products = ref([
                 <Carousel :value="products" circular :autoplayInterval="5000" :showIndicators="false" :showNavigators="true" :responsiveOptions="responsiveOptions">
                     <template #item="slotProps">
                         <div class="rounded m-2 p-4">
-                            <div class="mb-4">
+                            <div>
                                 <div class="relative mx-auto">
-                                    <img :src="slotProps.data.image" alt="Project Image" class="w-full h-auto max-w-xs mx-auto lg:rounded-lg rounded-sm" />
+                                    <img :src="slotProps.data.image" alt="Project Image" class="w-full max-w-xs mx-auto lg:rounded-lg rounded-sm" />
                                 </div>
                             </div>
                         </div>

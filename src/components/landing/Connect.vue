@@ -3,7 +3,12 @@
         <div class="items-center lg:w-1/3 justify-center pr-10" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
             <span class="text-7xl font-bold">let's connect</span>
             <p class="font-light text-lg text-pretty mt-5">Entre em contato enviando uma um email para <a href="mailto:jpsshome@gmail.com" class="border-b border-[#D3E97A]">jpsshome@gmail.com</a>.</p>
-            <p class="font-light text-lg text-pretty mt-5">Confira meu <a href="../../assets/João_Pedro_Silva_Santos.docx" download class="border-b border-[#D3E97A]">currículo.</a></p>
+
+            <button class="flex items-center w-auto bg-[#D3E97A] px-5 py-2 gap-3" style="border-radius: 50px">
+                <i class="pi pi-file-pdf"></i>
+                <p class="font-light text-lg text-pretty"><a href="../../assets/João_Pedro_Silva_Santos.docx" download>Confira meu currículo.</a></p>
+            </button>
+
             <div class="flex flex-wrap justify-start mt-6">
                 <div class="lg:flex lg:items-center p-3" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
                     <p>
