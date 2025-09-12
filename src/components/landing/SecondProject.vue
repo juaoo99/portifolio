@@ -58,6 +58,12 @@ const products = ref([
                     além de um simples ramal de telefone. O Guestlink permite que os hóspedes realizem e recebam chamadas diretamente do seu smartphone, enquanto oferece um sistema de chat integrado para comunicação direta com a equipe do hotel. Além
                     disso, o aplicativo conta com um módulo de pedidos que agiliza o serviço de quarto e outras solicitações, centralizando toda a interação do cliente em uma única e intuitiva interface.
                 </p>
+                <div class="lg:flex gap-5">
+                    <p class="font-light text-lg text-pretty">Avaliable on:</p>
+                    <p class="font-light text-lg text-pretty"><a href="https://apps.apple.com/us/app/ch%C3%A1cara-menina-da-serra/id6751280484" target="_blank" class="decoration-[##D3E97A]">App Store</a></p>
+                    <p class="font-light text-lg text-pretty">&</p>
+                    <p class="font-light text-lg text-pretty"><a href="https://play.google.com/store/apps/details?id=br.app.amax.meninadaserra" target="_blank">Play Store</a></p>
+                </div>
                 <p class="font-semibold text-lg text-pretty mt-5 uppercase">Project Info</p>
                 <Divider />
                 <div class="lg:flex justify-between">
@@ -75,14 +81,6 @@ const products = ref([
                     <p class="font-light text-lg text-pretty mt-5 flex items-center gap-5">Obj-C <i class="pi pi-circle-fill" style="font-size: 0.5rem"></i> Swift <i class="pi pi-circle-fill" style="font-size: 0.5rem"></i> SwiftUI</p>
                 </div>
                 <Divider />
-                <div class="lg:flex gap-10">
-                    <div class="flex items-center gap-2 p-3">
-                        <p class="font-regular text-lg text-pretty decoration-[#D3E97A]">App Store</p>
-                    </div>
-                    <div class="lg:flex lg:items-center gap-2 p-3">
-                        <p class="font-regular text-lg text-pretty decoration-[#D3E97A]">Play Store</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

@@ -70,12 +70,11 @@ const products = ref([
             <div class="items-center lg:w-1/2" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
                 <p class="font-semibold text-4xl text-pretty mt-5">Softphone Withe-label</p>
                 <p class="font-light text-lg lg:text-pretty mt-5 text-justify">
-                    Fui responsável pelo desenvolvimento e manutenção de um softphone VoIP whitelabel, uma plataforma que serve a mais de 70 clientes distintos. Para construir um sistema de alta performance, implementei tecnologias modernas como
-                    Firebase para uma gestão de dados eficiente e notificações push para aprimorar a experiência de comunicação. Essa arquitetura permitiu que as personalizações de cada cliente fossem feitas de maneira dinâmica, enquanto as
-                    atualizações de segurança e novas funcionalidades eram implementadas em todos os aplicativos de forma simultânea. Entreguei um produto robusto e confiável, demonstrando minha expertise na criação de soluções escaláveis e
-                    tecnologicamente avançadas.
+                    Responsável pelo desenvolvimento e manutenção de um softphone VoIP whitelabel, uma plataforma que serve a mais de 70 clientes distintos. Para construir um sistema de alta performance, implementei tecnologias modernas como Firebase
+                    para uma gestão de dados eficiente e notificações push para aprimorar a experiência de comunicação. Essa arquitetura permitiu que as personalizações de cada cliente fossem feitas de maneira dinâmica, enquanto as atualizações de
+                    segurança e novas funcionalidades eram implementadas em todos os aplicativos de forma simultânea. Entreguei um produto robusto e confiável, demonstrando minha expertise na criação de soluções escaláveis e tecnologicamente
+                    avançadas.
                 </p>
-
                 <div class="lg:flex gap-5">
                     <p class="font-light text-lg text-pretty">Avaliable on:</p>
                     <p class="font-light text-lg text-pretty"><a href="https://apps.apple.com/us/app/fluxphone/id6450217761" target="_blank" class="decoration-[##D3E97A]">App Store</a></p>

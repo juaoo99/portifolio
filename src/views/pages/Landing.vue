@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import FloatingConfigurator from '@/components/FloatingConfigurator.vue';
 import AboutMe from '@/components/landing/AboutMe.vue';
+import Exeperiencies from '@/components/landing/Exeperiencies.vue';
 import FirstProject from '@/components/landing/FirstProject.vue';
 import FirstSection from '@/components/landing/FirstSection.vue';
 import SecondProject from '@/components/landing/SecondProject.vue';
+import Skills from '@/components/landing/Skills.vue';
 import ThirdPtoject from '@/components/landing/ThirdPtoject.vue';
 
 function smoothScroll(id) {
@@ -63,6 +65,12 @@ function smoothScroll(id) {
             </div>
             <div id="aboutme" class="mt-40">
                 <AboutMe />
+            </div>
+            <div id="experiencies" class="mt-40">
+                <Exeperiencies />
+            </div>
+            <div id="capabilities" class="mt-40">
+                <Skills />
             </div>
             <div id="connect" class="mt-40">
                 <Connect />

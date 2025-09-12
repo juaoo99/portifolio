@@ -7,7 +7,7 @@
             </p>
 
             <div class="flex flex-wrap justify-center lg:justify-start gap-5 mt-6 px-5 lg:px-0">
-                <div class="lg:flex lg:items-center gap-2 contact p-3" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
+                <div class="flex items-center gap-2 px-4 contact" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
                     <i class="pi pi-circle-fill"></i>
                     <p>Contact Me</p>
                 </div>
@@ -27,7 +27,7 @@
 </template>
 <style>
 .contact {
-    background-color: #d3e97a79;
+    background-color: #d3e97a;
     border-radius: 20px;
 }
 .linkdin {
