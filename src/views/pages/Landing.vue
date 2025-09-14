@@ -24,11 +24,11 @@ function smoothScroll(id) {
 <template>
     <div class="bg-surface-0 dark:bg-surface-900">
         <div id="home" class="landing-wrapper overflow-hidden relative">
-            <div class="navbar py-6 px-6 mx-0 hidden lg:flex items-center justify-between lg:fixed rounded-lg w-full fixed top-0 z-50 sm:hidden">
+            <div class="navbar py-5 px-6 mx-0 hidden lg:flex items-center justify-between lg:fixed rounded-lg w-full fixed top-0 z-50 sm:hidden">
                 <div class="items-center justify-between flex w-full z-20 rounded-border">
                     <div>
                         <a @click="smoothScroll('first')" class="lg:text-3xl text-1xl text-muted-color pl-20" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-3000' }">
-                            <p v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }">João Pedro</p>
+                            <span v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }">João Pedro</span>
                         </a>
                     </div>
                     <div class="pr-20">
@@ -63,7 +63,7 @@ function smoothScroll(id) {
                 <SecondProject />
             </div>
 
-            <div id="t" class="mt-40">
+            <div id="t">
                 <ThirdPtoject />
             </div>
             <div id="more" class="mt-40">

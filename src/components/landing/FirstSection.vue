@@ -3,10 +3,10 @@
         <div class="w-full text-center lg:w-1/2 lg:text-left" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-2000' }">
             <p class="text-7xl font-bold">hi, i am <br />João Pedro.</p>
             <p class="font-light text-lg text-pretty mt-5 px-5 lg:px-0">
-                Desenvolvedor experiente com habilidades em desenvolvimento web e mobile. Buscando oportunidades desafiadoras para aplicar minha expertise em programação, liderança de equipes e desenvolvimento de aplicações de alta performance.
+                Sou desenvolvedor formado e com experiência tem aplicações mobile e web. Buscando oportunidades desafiadoras para aplicar minhas skills em programação e desenvolvimento de aplicações de alta performance.
             </p>
 
-            <div class="flex flex-wrap justify-center lg:justify-start gap-5 mt-6 px-5 lg:px-0">
+            <div class="flex flex-wrap justify-center lg:justify-start gap-2 mt-6 px-5 lg:px-0">
                 <div
                     class="flex items-center w-auto bg-[#D3E97A] px-5 py-2 gap-3"
                     style="border-radius: 50px"
@@ -24,8 +24,8 @@
             </div>
         </div>
 
-        <div class="items-center p-5 lg:p-0">
-            <img src="../../assets/images/first.jpg" alt="Image" width="400" class="rounded-xl hover:scale-105 transition-transform duration-300 ease-in-out" />
+        <div class="flex items-center p-5 lg:p-0" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }">
+            <img src="../../assets/images/more/p2.png" alt="Image" width="400" class="rounded-xl hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
     </div>
 </template>

@@ -8,8 +8,8 @@ import serveImage from '../../assets/images/serve.png';
 // Defina as opções responsivas do carrossel
 const responsiveOptions = ref([
     {
-        breakpoint: '1024px',
-        numVisible: 3,
+        breakpoint: '1500px',
+        numVisible: 2,
         numScroll: 1
     },
     {

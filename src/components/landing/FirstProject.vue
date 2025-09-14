@@ -3,7 +3,6 @@ import Carousel from 'primevue/carousel';
 import { ref } from 'vue';
 import call1 from '../../assets/images/call1.png';
 import call2 from '../../assets/images/call2.png';
-import call3 from '../../assets/images/call3.png';
 
 import key from '../../assets/images/keypad.png';
 import op from '../../assets/images/options.png';
@@ -12,8 +11,8 @@ import reg from '../../assets/images/reg.png';
 // Defina as opções responsivas do carrossel
 const responsiveOptions = ref([
     {
-        breakpoint: '1024px',
-        numVisible: 3,
+        breakpoint: '1500px',
+        numVisible: 2,
         numScroll: 1
     },
     {
@@ -38,9 +37,6 @@ const products = ref([
     },
     {
         image: call2
-    },
-    {
-        image: call3
     }
 ]);
 </script>
