@@ -1,7 +1,10 @@
 <template>
     <div class="lg:px-20 px-10 lg:flex w-full lg:items-center lg:justify-around gap-5">
-        <div class="items-center lg:w-1/3 justify-center lg:pr-10" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
-            <span class="text-7xl font-bold">about me</span>
+        <div class="items-center lg:w-1/3 justify-center" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
+            <span class="text-7xl font-bold mb-5">about me</span>
+            <div class="w-full flex item-center pt-10" style="width: 300px">
+                <img src="../../assets/images/aboutme.png" alt="" class="rounded-lg" />
+            </div>
         </div>
         <div class="items-center lg:w-1/2">
             <!--<p class="text-4xl font-bold py-10" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-b-20 animate-duration-1000' }">Desenvolvedor Full-Stack & Analista de Tecnologia .</p>-->
