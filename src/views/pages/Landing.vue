@@ -31,7 +31,7 @@ function smoothScroll(id) {
                             <span v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }">João Pedro</span>
                         </a>
                     </div>
-                    <div class="pr-20">
+                    <div class="pr-40">
                         <ul class="list-none p-0 m-0 flex justify-around select-none flex-row cursor-pointer gap-14 w-full">
                             <li v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }">
                                 <a @click="smoothScroll('features')" class="px-0 py-4 text-surface-900 dark:text-surface-0 font-medium text-xl">
@@ -63,7 +63,7 @@ function smoothScroll(id) {
                 <SecondProject />
             </div>
 
-            <div id="t">
+            <div id="t" class="mt-40">
                 <ThirdPtoject />
             </div>
             <div id="more" class="mt-40">

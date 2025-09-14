@@ -59,12 +59,12 @@ const products = ref([
                     disso, o aplicativo conta com um módulo de pedidos que agiliza o serviço de quarto e outras solicitações, centralizando toda a interação do cliente em uma única e intuitiva interface.
                 </p>
                 <div class="lg:flex gap-5">
-                    <p class="font-light text-lg text-pretty">Avaliable on:</p>
-                    <p class="font-light text-lg text-pretty"><a href="https://apps.apple.com/us/app/ch%C3%A1cara-menina-da-serra/id6751280484" target="_blank" class="decoration-[##D3E97A]">App Store</a></p>
+                    <p class="font-light text-lg text-pretty uppercase">Avaliable on:</p>
+                    <p class="font-light text-lg text-pretty uppercase"><a href="https://apps.apple.com/us/app/ch%C3%A1cara-menina-da-serra/id6751280484" target="_blank" class="border-b border-[#D3E97A]">App Store</a></p>
                     <p class="font-light text-lg text-pretty">&</p>
-                    <p class="font-light text-lg text-pretty"><a href="https://play.google.com/store/apps/details?id=br.app.amax.meninadaserra" target="_blank">Play Store</a></p>
+                    <p class="font-light text-lg text-pretty uppercase"><a href="https://play.google.com/store/apps/details?id=br.app.amax.meninadaserra" target="_blank" class="border-b border-[#D3E97A]">Play Store</a></p>
                 </div>
-                <p class="font-semibold text-lg text-pretty mt-5 uppercase">Project Info</p>
+                <p class="font-light text-lg text-pretty mt-5 uppercase">Project Info</p>
                 <Divider />
                 <div class="lg:flex justify-between">
                     <p class="font-light text-lg text-pretty mt-5">Year</p>

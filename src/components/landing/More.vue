@@ -54,9 +54,9 @@ const products = ref([
             <span class="text-4xl font-bold uppercase text-center">Journey</span>
             <p class="font-light text-lg text-pretty mt-5">A programação se tornou parte da minha vida, não so profissionalmente. Fora do escritório busco conhecimento, experiencia e inspiração.</p>
         </div>
-        <div class="lg:flex w-full lg:items-center lg:justify-around">
+        <div class="lg:flex-grow w-full h-auto lg:items-center lg:justify-around">
             <div class="imga w-full" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
-                <Carousel :value="products" circular :autoplayInterval="30000" :showIndicators="false" :showNavigators="true" :responsiveOptions="responsiveOptions">
+                <Carousel :value="products" circular :autoplayInterval="5000" :showIndicators="false" :showNavigators="true" :responsiveOptions="responsiveOptions">
                     <template #item="slotProps">
                         <div class="lg:m-2 lg:p-4 lg:flex items-center justify-center gap-8">
                             <div class="mb-4">
