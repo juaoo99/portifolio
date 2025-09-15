@@ -11,7 +11,7 @@ function smoothScroll(id) {
 }
 </script>
 <template>
-    <div class="flex flex-col mt-20 lg:flex-row w-full min-h-dvh lg:items-center lg:justify-around gap-5">
+    <div class="flex flex-col lg:flex-row w-full min-h-dvh lg:items-center lg:justify-around gap-5 mt-20">
         <div class="w-full text-center lg:w-1/2 lg:text-left" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-2000' }">
             <p class="text-7xl font-bold">hi, i am <br />João Pedro.</p>
             <p class="font-light text-lg text-pretty mt-5 px-5 lg:px-0">
@@ -32,7 +32,7 @@ function smoothScroll(id) {
         </div>
 
         <div class="flex items-center p-5 lg:p-0" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }">
-            <img src="../../assets/images/more/p2.png" alt="Image" width="400" class="rounded-xl hover:scale-105 transition-transform duration-300 ease-in-out" />
+            <img src="../../assets/images/more/p2.png" alt="Image" width="400" class="rounded-xl" />
         </div>
     </div>
 </template>

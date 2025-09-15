@@ -1,9 +1,9 @@
 <script setup>
 import Carousel from 'primevue/carousel';
 import { ref } from 'vue';
+
 import call1 from '../../assets/images/call1.png';
 import call2 from '../../assets/images/call2.png';
-
 import key from '../../assets/images/keypad.png';
 import op from '../../assets/images/options.png';
 import reg from '../../assets/images/reg.png';
