@@ -4,11 +4,13 @@
             <span class="lg:text-7xl text-6xl font-bold mb-8">my capabilities</span>
         </div>
         <div class="items-center lg:w-1/2">
-            <p class="font-light text-lg text-pretty mt-5 text-justify" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-b-20 animate-duration-1000' }">
+            <p class="font-light text-lg text-pretty mt-5" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-b-20 animate-duration-1000' }">
                 Minha atuação vai além do desenvolvimento de código. Eu também gerencio a publicação e o monitoramento de aplicativos tanto na Apple App Store quanto no Google Play Console. Para isso, integro SDKs e utilizo ferramentas de análise de
-                dados como o Google Analytics e o Firebase, além de gerenciar relatórios de erros com o Crashlytics. Minhas responsabilidades incluem ainda a implementação e o gerenciamento de push notifications com APNs e Firebase Cloud Messaging,
-                garantindo o envio de mensagens e alertas. Essa experiência abrangente, juntamente com minhas habilidades de liderança e relações públicas, me permite gerir projetos de forma eficaz e contribuir para o sucesso de equipes de alto
-                desempenho.
+                dados como o Google Analytics e o Firebase, além de gerenciar relatórios de erros com o Crashlytics.
+            </p>
+            <p class="font-light text-lg text-pretty mt-5" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-b-20 animate-duration-1000' }">
+                Minhas responsabilidades incluem ainda a implementação e o gerenciamento de push notifications com APNs e Firebase Cloud Messaging, garantindo o envio de mensagens e alertas. Essa experiência abrangente, juntamente com minhas
+                habilidades de liderança e relações públicas, me permite gerir projetos de forma eficaz e contribuir para o sucesso de equipes de alto desempenho.
             </p>
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 <div class="px-4 py-2 rounded-xl flex justify-center bg-[#f0d92928]" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-8 animate-duration-2000', leaveClass: 'animate-leave fade-out-0' }">
@@ -53,6 +55,12 @@
                 </div>
                 <div class="px-4 py-2 rounded-xl flex justify-center bg-[#3bbaf531]" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-8 animate-duration-2000 ', leaveClass: 'animate-leave fade-out-0' }">
                     <p>Flutter + Dart</p>
+                </div>
+                <div class="px-4 py-2 rounded-xl flex justify-center bg-[#f0d92928]" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-8 animate-duration-2000', leaveClass: 'animate-leave fade-out-0' }">
+                    <p>Google Cloud</p>
+                </div>
+                <div class="px-4 py-2 rounded-xl flex justify-center bg-[#45ba852b]" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-2000', leaveClass: 'animate-leave fade-out-0' }">
+                    <p>Analytics</p>
                 </div>
             </div>
         </div>

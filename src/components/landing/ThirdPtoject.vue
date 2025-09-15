@@ -44,7 +44,7 @@ const responsiveOptions = ref([
         <div class="w-full">
             <div class="items-center" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
                 <p class="font-semibold text-4xl text-pretty">GuestLink Management</p>
-                <p class="font-light text-lg text-pretty mt-5 text-justify">
+                <p class="font-light text-lg text-pretty mt-5">
                     Complementando o aplicativo para iOS do Guestlink, desenvolvi um portal de gerenciamento web para a equipe do hotel. Essa plataforma é a central de operações que otimiza a comunicação e os serviços. Através dela, os funcionários
                     podem monitorar e responder ao chat dos hóspedes, gerenciar pedidos de serviço de forma organizada e configurar os ramais de forma simples e eficaz. O portal web, portanto, não apenas complementa o aplicativo, mas transforma a
                     gestão diária, fornecendo à equipe as ferramentas necessárias para oferecer um serviço excepcional.

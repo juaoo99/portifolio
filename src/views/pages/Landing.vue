@@ -133,7 +133,7 @@ function smoothScroll(id) {
             <div id="capabilities" class="mt-40">
                 <Skills />
             </div>
-            <div id="connect" class="mt-40">
+            <div id="connect" class="lg:my-60 my-40">
                 <Connect />
             </div>
         </div>

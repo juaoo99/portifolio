@@ -67,8 +67,8 @@ const products = ref([
                             <div class="lg:w-1/2 h-auto">
                                 <p class="text-xl">{{ slotProps.data.title }}</p>
                                 <div class="flex">
-                                    <p class="font-light text-lg text-pretty mt-5 text-justify">{{ slotProps.data.subtitle }}</p>
-                                    <p class="font-light text-lg text-pretty mt-5 text-justify">{{ slotProps.data.subtitle2 }}</p>
+                                    <p class="font-light text-lg text-pretty mt-5">{{ slotProps.data.subtitle }}</p>
+                                    <p class="font-light text-lg text-pretty mt-5">{{ slotProps.data.subtitle2 }}</p>
                                 </div>
                             </div>
                         </div>

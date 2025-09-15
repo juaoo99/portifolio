@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:px-20 px-10 lg:flex w-full min-h-dvh lg:items-center lg:justify-around gap-5">
+    <div class="lg:px-20 px-10 lg:flex w-full lg:items-center lg:justify-around gap-5">
         <div class="items-center lg:w-1/3 justify-center pr-10" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
             <span class="text-7xl font-bold">let's connect</span>
             <p class="font-light text-lg text-pretty mt-5">Entre em contato enviando uma um email para <a href="mailto:jpsshome@gmail.com" class="border-b border-[#D3E97A]">jpsshome@gmail.com</a>.</p>
