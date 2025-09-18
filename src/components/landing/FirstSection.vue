@@ -20,14 +20,14 @@ function smoothScroll(id) {
 
             <div class="flex flex-wrap justify-center lg:justify-start gap-2 mt-6 px-5 lg:px-0">
                 <div class="flex items-center bubbles gap-4" style="border-radius: 50px" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
-                    <p class="t"><a @click="smoothScroll('connect')">Contact Me</a></p>
+                    <p class="t select-none"><a @click="smoothScroll('connect')">Contact Me</a></p>
                 </div>
                 <div class="lg:flex lg:items-center gap-2 p-3 rounded-xl" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-b-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
                     <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-silva-santos-4b234a1b1/" target="_blank"><i class="pi pi-linkedin" style="font-size: 2.2rem; color: #0966c2"></i></a>
                 </div>
-                <div class="lg:flex lg:items-center gap-2 p-3" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
+                <!--<div class="lg:flex lg:items-center gap-2 p-3" v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }">
                     <a href="https://github.com/juaoo99" target="_blank"><i class="pi pi-github" style="font-size: 2.2rem"></i></a>
-                </div>
+                </div>-->
             </div>
         </div>
 
